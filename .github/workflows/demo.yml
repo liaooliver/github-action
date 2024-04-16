@@ -41,7 +41,7 @@ jobs:
   #   needs: [build_on_ubuntu]
   #   steps: 
   #     - name: run multi-line script
-        run: |
-          echo "hello github actions"
-          Get-Date
+        # run: |
+        #   echo "hello github actions"
+        #   Get-Date
   
