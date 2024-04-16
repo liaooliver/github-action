@@ -16,7 +16,7 @@ jobs:
           cd github-actions-python
       - name: install pytest
         run: pip install pytest
-      - name: run pytest
+      - name: pytest
         run: pytest
   # # This workflow contains a single job called "build"
   # build_on_ubuntu:
