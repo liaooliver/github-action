@@ -13,7 +13,7 @@ jobs:
       - name: build exe
         run: pyinstaller app.py -F
       - name: Upload a Build Artifact
-        uses: actions/upload-artifact@v4.3.1
+        uses: actions/upload-artifact@v3
         with:
           name: sha256-windows-exe
           path: dist/sha256.exe
