@@ -26,7 +26,7 @@ jobs:
         uses: actions/upload-artifact@v3
         if: failure() && steps.py-run-test.outcome == 'failure'
         with:
-          name: test-report
+          name: test-report-${{ matrix.version }}
           path: htmlcov/
   
   deploy:
