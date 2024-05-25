@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-22.04
     services:
       mongo: 
-        image: mongo@6.0.2
+        image: mongo:6.0.2
         env:
           MONGO_INITDB_ROOT_USERNAME: root
           MONGO_INITDB_ROOT_PASSWORD: example
